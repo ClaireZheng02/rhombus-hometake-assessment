@@ -1,0 +1,25 @@
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-9.1.1, pluggy-1.7.0 -- /workspaces/rhombus-hometake-assessment/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /workspaces/rhombus-hometake-assessment
+plugins: anyio-4.15.1, playwright-0.10.0, platformdirs-4.13.4
+collecting ... collected 16 items
+
+data-validation/test_baseline.py::test_row_counts PASSED                 [  6%]
+data-validation/test_baseline.py::test_output_schema PASSED              [ 12%]
+data-validation/test_baseline.py::test_no_duplicate_orders PASSED        [ 18%]
+data-validation/test_baseline.py::test_no_missing_values PASSED          [ 25%]
+data-validation/test_baseline.py::test_valid_numeric_values PASSED       [ 31%]
+data-validation/test_determinism.py::test_same_row_count PASSED          [ 37%]
+data-validation/test_determinism.py::test_same_schema PASSED             [ 43%]
+data-validation/test_determinism.py::test_identical_output PASSED        [ 50%]
+data-validation/test_determinism.py::test_matches_baseline PASSED        [ 56%]
+data-validation/test_reconciliation.py::test_removed_orders PASSED       [ 62%]
+data-validation/test_reconciliation.py::test_row_level_reconciliation PASSED [ 68%]
+data-validation/test_semantic_dates.py::test_date_drift_detected PASSED  [ 75%]
+data-validation/test_semantic_dates.py::test_day_month_swapped PASSED    [ 81%]
+data-validation/test_semantic_dates.py::test_non_date_fields_unchanged PASSED [ 87%]
+data-validation/test_semantic_price.py::test_detect_price_multiplier PASSED [ 93%]
+data-validation/test_semantic_price.py::test_other_fields_unchanged PASSED [100%]
+
+============================== 16 passed in 6.49s ==============================

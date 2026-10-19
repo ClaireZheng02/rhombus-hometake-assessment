@@ -1,0 +1,25 @@
+order_id,order_date,customer_email,region,status,quantity,unit_price_usd
+ORD-1001,10/01/2026,customer01@example.com,Brisbane,Paid,1,24.50
+ORD-1002,10/02/2026,customer02@example.com, Sydney , paid ,2,79.95
+ORD-1003,10/03/2026,customer03@example.com,Melbourne,PAID,3,130.00
+ORD-1004,10/04/2026,customer04@example.com,Perth,Pending,4,18.25
+ORD-1005,10/05/2026,customer05@example.com,Adelaide, pending ,1,56.75
+ORD-1006,10/06/2026,customer06@example.com,,PENDING,2,99.00
+ORD-1007,10/07/2026,customer07@example.com,brisbane,Refunded,3,27.50
+ORD-1008,10/08/2026,customer08@example.com,SYDNEY, refunded ,4,149.95
+ORD-1009,10/09/2026,customer09@example.com, Melbourne ,REFUNDED,1,15.00
+ORD-1010,10/10/2026,customer10@example.com,Perth,Paid,2,62.40
+ORD-1011,10/01/2026,customer11@example.com,Brisbane,Paid,3,48.80
+ORD-1012,10/02/2026,customer12@example.com, Sydney , paid ,4,89.50
+ORD-1013,10/03/2026,customer13@example.com,Melbourne,PAID,1,34.75
+ORD-1014,10/04/2026,customer14@example.com,Perth,Pending,2,119.00
+ORD-1015,10/05/2026,customer15@example.com,Adelaide, pending ,3,25.90
+ORD-1016,10/06/2026,customer16@example.com,,PENDING,4,42.00
+ORD-1017,10/07/2026,customer17@example.com,brisbane,Refunded,1,177.25
+ORD-1018,10/08/2026,customer18@example.com,SYDNEY, refunded ,2,13.50
+ORD-1019,10/09/2026,customer19@example.com, Melbourne ,REFUNDED,3,68.00
+ORD-1020,10/10/2026,customer20@example.com,Perth,Paid,4,220.00
+ORD-1021,10/04/2026,customer21@example.com,Sydney,Paid,-2,35.00
+ORD-1022,10/05/2026,customer22@example.com,Perth,Pending,2,-5.49
+ORD-1003,10/03/2026,customer03@example.com,Melbourne,PAID,3,130.00
+ORD-1012,10/02/2026,customer12@example.com, Sydney , paid ,4,89.50

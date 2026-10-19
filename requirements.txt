@@ -1,0 +1,10 @@
+
+# Data validation
+pandas>=2.2,<4.0
+
+# Automated testing
+pytest>=9.0,<10.0
+
+# Browser UI and API testing
+playwright>=1.64,<2.0
+pytest-playwright>=0.10,<1.0

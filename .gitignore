@@ -218,3 +218,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Python virtual environment
+.venv/
+vev/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Authentication and sensitive information
+.auth/
+.edge-manual-profile/
+.env
+.env.*
+!.env.example
+
+# Playwright generated files
+playwright-report/
+test-results/
+
+# Local logs
+*.log
+ui-tests/playwright_exploration.ipynb
